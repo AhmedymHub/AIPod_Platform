@@ -1,3 +1,38 @@
+AI Podcast Platform
+
+Overview
+The AI Podcast Platform is a web application that enables users to create podcasts effortlessly using AI technology. Users can select from various AI-generated voices, input a text prompt, and have the platform generate a high-quality podcast. Additionally, the platform provides automatic podcast thumbnail generation and seamless playback, making it a one-stop solution for podcast creators.
+
+Features
+AI Voice Selection: Choose from multiple AI-generated voices for your podcast.
+Text-to-Audio Conversion: Enter a text prompt, and the AI generates the podcast in real-time.
+Automatic Thumbnail Generation: Generate podcast thumbnails automatically using AI image generation.
+Seamless Playback: Listen to generated podcasts with an integrated audio player.
+Podcast Publishing: Easily submit and publish podcasts on the platform.
+
+Tech Stack
+Frontend: Next.js, TypeScript, SCSS, JSX
+Backend: Convex API
+AI Integration: OpenAI for text-to-audio conversion
+File Upload: Cloudinary (for podcast and image uploads)
+Authentication: Clerk
+Styling: TailwindCSS, Shadcn
+Payments: Stripe (for premium features)
+Storage: MongoDB (for data storage)
+
+Installation
+Prerequisites
+Before you begin, ensure you have met the following requirements:
+
+Node.js (v16 or later)
+MongoDB
+Convex CLI
+Stripe API Keys
+Clerk API Keys
+Cloudinary Account
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
